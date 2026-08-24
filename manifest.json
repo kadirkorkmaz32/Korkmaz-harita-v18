@@ -1,0 +1,8 @@
+{"name":"Korkmaz Harita Mühendislik","short_name":"Korkmaz Harita","start_url":"./","display":"standalone","background_color":"#0d1016","theme_color":"#0d1016","icons":[{"src":"icon-s.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}]}
+
+/* v13: PIN change UI disabled */
+.pin-change, #pinChange, [data-action="change-pin"], [data-action="pin-change"] { display:none !important; }
+
+/* v13: theme-aware logo text */
+body.light .logo-text, body.light .brand-text, body.light .logo-title { color:#000 !important; }
+body.dark .logo-text, body.dark .brand-text, body.dark .logo-title { color:#fff !important; }
